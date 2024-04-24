@@ -145,3 +145,9 @@ REST_FRAMEWORK = {
 }
 
 APPEND_SLASH = False
+
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+# Allow credentials to be sent from any origin:
+CORS_ALLOW_CREDENTIALS = True
